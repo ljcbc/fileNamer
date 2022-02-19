@@ -29,9 +29,9 @@ curl https://bootstrap.pypa.io/get-pip.py | python3
 
 1 - Make sure you have REQUIREMENTS installed.
 
-2 - Place fileNamer folder in a directory that is out of the way + that will not be changed in the future.
+2 - Move the fileNamer folder in a directory that is out of the way + that will not be changed in the future.
 
-3 - Edit the contents of the 'filenamer.command' file such that the file path points to the 'fileNamer.py' file in this folder.
+3 - Edit the contents of the 'filenamer.command' file (open it in an editor) such that the file path points to the 'fileNamer.py' file in this folder.
 
 4 - Test to see if the 'filenames.command' script runs (double click on it).
 
@@ -42,7 +42,7 @@ sudo chmod 775 {filenamer.command filepath}
 
 [!] if the file runs but fileNamer does not run, make sure that you did step 3.
 
-5 - Open Automator App, file >> new >> quick action >> add 'Run AppleScript'.
+5 - Open Automator app, file >> new >> quick action >> add 'Run AppleScript'.
 
 6 - Delete the apple script contents ( from 'on run'.. to 'end run'. Replace them with:
 
