@@ -6,8 +6,6 @@ https://github.com/ljcbc/fileNamer
 
 a simple python script that generates a filename in **YYYY-MM-DD-XXBPM-KEYWORD** format that is sent to your clipboard.
 
-there are a few weird workarounds required to get this running but this incredibly simple script has saved me so much time, I would definitely recommend trying it.
-
 ![](https://media.giphy.com/media/k5TVqhx76GhfTifBjL/giphy.gif)
 
 ## REQUIREMENTS:
