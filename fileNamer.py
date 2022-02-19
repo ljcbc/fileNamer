@@ -23,8 +23,8 @@ class color:
    UNDERLINE = '\033[4m'
    END = '\033[0m'
 class version:
-    NAME = "FileNamer"
-    INFO = "Build 0.0.1"
+    NAME = "fileNamer"
+    INFO = "Build 0.0.2"
     AUTHOR = "choi"
     DATE = "2022-01-03"
 class prompt:
@@ -38,7 +38,6 @@ print(color.BOLD + color.RED + version.NAME + color.END)
 print(color.BOLD + color.CYAN + version.INFO + color.END)
 
 #color.DARKCYAN + version.DATE + color.END, sep=' ')
-#print(version.AUTHOR)
 print ()
 
 #input

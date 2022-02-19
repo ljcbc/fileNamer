@@ -1,4 +1,0 @@
-
-#apple script command for automator to launch script in terminal
-
-on run {input, parameters}		tell application "Terminal"		activate		do script "/Users/choi/PycharmProjects/Filenamer_build/filenamer.command;exit"	end tell	return inputend run
